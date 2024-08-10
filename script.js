@@ -52,6 +52,12 @@ const textoResultado = domunt.querySelector("texto-resultado");
         mostraAlternativas();
     }
 function = mostraPerguta() {
+    for(const alternativa of perguntaAtual.alternativa){
+        const botaAlternativas = document.createElement("button");
+        botaAlternativas.textContent
+        caixaAlternativas.appendChild(botaAlternativas);
+        
+    }
 
 }
      mostraPerguta();
